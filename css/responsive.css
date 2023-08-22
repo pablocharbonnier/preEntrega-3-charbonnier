@@ -1,0 +1,10 @@
+@media(max-width=600px){
+    #section{
+        width: 100%;
+        float: none;
+
+    }
+    #section .card{
+        width: 90%;
+    }
+}

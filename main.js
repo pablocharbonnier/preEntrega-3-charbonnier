@@ -17,7 +17,7 @@ class Carrito {
 
     levantarStorage(){
         let listaJSON = localStorage.getItem("lista")
-        this.lista = JSON.parse(listaJSON)
+        this.lista = JSON.parse(listaJSON) 
     }
 
     guardarEnStorage(){
@@ -82,7 +82,7 @@ class ProductoController {
 
 
     mostrarProductos() {
-        let section = document.getElementById("section")
+        let section = document.getElementById('section')
         this.listaProductos.forEach(producto => {
             section.innerHTML += ` <div class="card">
              <img src="${producto.img}" class="card-img-top" alt="...">
